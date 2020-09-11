@@ -142,9 +142,11 @@ rootPidList
          in ALL of the page tree with no regard to branches at all.
 
          Notice that by "root-page" we mean a website root defined by
-
          a TypoScript Template! If you just want to search in branches of your
          site, use the possibility of searching in levels.
+         
+         If you want to limit the search to some branches, using subtemplates
+         setting `page.config.index_enable` to `1` or `0` could be a solution.
 
    Default
          Empty, which fall backs to the current root-page id
